@@ -2,9 +2,27 @@
   "characters": [
     {
       "name": "Vegeta",
-      "age": "48",
+      "age": "50",
       "power": "SuperSaiyan",
       "gender": "Male"
+    },
+    {
+      "name": "Goku",
+      "age": "50",
+      "power": "SuperSaiyan",
+      "gender": "Male"
+    },
+    {
+      "name": "Piccolo",
+      "age": "27",
+      "power": "OrangePiccolo",
+      "gender": "Male"
+    },
+    {
+      "name": "Bulma",
+      "age": "45",
+      "power": "Genius",
+      "gender": "Female"
     }
   ]
 }

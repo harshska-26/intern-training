@@ -4,6 +4,10 @@ const { delCharVal } = require("./Validations/delCharVal.validation");
 const { addChar } = require("./controllers/addCharCtrl.controller");
 const { delCharCtrl } = require("./controllers/delCharCtrl.controller");
 const { characters } = require("./character");
+const { editChar } = require("./controllers/editChar.controller");
+const { validateEditChar } = require("./Validations/validateEditChar.validation.js");
+
+
 
 const app = express();
 
@@ -21,6 +25,7 @@ app.get("/getChars", (req, res) => {
 app.post("/addCharacter", validateChar, addChar);
 
 app.delete("/deleteCharacter", delCharVal, delCharCtrl);
+app.put("/editCharacter", validateEditChar, editChar);
 
 
 app.listen(PORT, () => {
