@@ -1,0 +1,10 @@
+{
+  "characters": [
+    {
+      "name": "Vegeta",
+      "age": "48",
+      "power": "SuperSaiyan",
+      "gender": "Male"
+    }
+  ]
+}
